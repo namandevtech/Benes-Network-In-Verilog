@@ -66,8 +66,6 @@ localparam integer TOTAL_SW = STAGES * SW_PER_STAGE;
                 localparam integer partner_wire = base_wire + D;
 
                 benes_sw2x2 unit (
-                    .clk(clk),
-                    .n_rst(n_rst),
                     .enable(enable),
                     .cfg(cfg[stagex * SW_PER_STAGE + swx]),
                     .in({inter_stage_bus[stagex][partner_wire],

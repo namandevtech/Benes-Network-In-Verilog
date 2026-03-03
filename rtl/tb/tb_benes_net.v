@@ -63,10 +63,22 @@ module tb_benes_net;
                 data_in[_addr_] = _frame_[i];
                 @(posedge clk);
             end
+            repeat (4) @(posedge clk);
             enable = 1'b0;
             @(posedge clk);
         end
     endtask
+
+
+    task _modify_permutation;
+        input [TOTAL_SW-1:0] PERMUTATION;
+        begin
+            cfg = PERMUTATION;
+            @(posedge clk);
+        end
+    endtask
+
+
 
 
     /* main */
@@ -88,9 +100,7 @@ module tb_benes_net;
         _reset();
         _send_data(3'd7, 8'h55);
         _reset();
-        cfg[0] = 1'b1;
-        _send_data(3'd0, 8'h01);
-        _reset();
+
 
 
         repeat (5) @(posedge clk);
