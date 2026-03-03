@@ -1,6 +1,10 @@
 # Ignore everything by default
 *
 
+# Ignore .DS_Store specifically
+.DS_Store
+**/.DS_Store
+
 # --- Allow the root .gitignore itself (and optionally README/LICENSE) ---
 !.gitignore
 !README.md
