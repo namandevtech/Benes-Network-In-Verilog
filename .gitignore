@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# --- Allow the root .gitignore itself (and optionally README/LICENSE) ---
+!.gitignore
+!README.md
+!LICENSE
+
+# --- Allow specific folders (edit these) ---
+!rtl/
+!rtl/**
+
+# --- Allow specific root files (edit these) ---
+!Makefile
+!files.f
