@@ -13,6 +13,7 @@
 # --- Allow specific folders (edit these) ---
 !rtl/
 !rtl/**
+rtl/.DS_Store
 
 # --- Allow specific root files (edit these) ---
 !Makefile
