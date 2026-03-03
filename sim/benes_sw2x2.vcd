@@ -1,0 +1,122 @@
+$date
+	Tue Feb 17 16:22:39 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_benes_sw2x2 $end
+$var wire 1 ! out2 $end
+$var wire 1 " out1 $end
+$var parameter 32 # CLK_PER $end
+$var reg 1 $ cfg $end
+$var reg 1 % clk $end
+$var reg 1 & enable $end
+$var reg 1 ' in1 $end
+$var reg 1 ( in2 $end
+$var reg 1 ) n_rst $end
+$var reg 1024 * vcdfile [1023:0] $end
+$scope module dut $end
+$var wire 1 $ cfg $end
+$var wire 1 % clk $end
+$var wire 1 & enable $end
+$var wire 1 ' in1 $end
+$var wire 1 ( in2 $end
+$var wire 1 ) n_rst $end
+$var reg 1 " out1 $end
+$var reg 1 ! out2 $end
+$upscope $end
+$scope task _reset $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 #
+$end
+#0
+$dumpvars
+b1110011011010010110110100101111011000100110010101101110011001010111001101011111011100110111011100110010011110000011001000101110011101100110001101100100 *
+0)
+0(
+0'
+0&
+0%
+0$
+0"
+0!
+$end
+#5000
+1)
+1%
+#10000
+0%
+#15000
+1!
+1(
+1&
+1%
+#20000
+0%
+#25000
+1%
+#30000
+0%
+#35000
+0!
+1"
+1$
+1%
+#40000
+0%
+#45000
+1%
+#50000
+0%
+#55000
+1!
+0"
+0(
+1'
+1%
+#60000
+0%
+#65000
+1%
+#70000
+0%
+#75000
+0!
+1"
+0$
+1%
+#80000
+0%
+#85000
+1%
+#90000
+0%
+#95000
+1%
+#100000
+0%
+#105000
+1%
+#110000
+0%
+#115000
+1%
+#120000
+0%
+#125000
+1%
+#130000
+0%
+#135000
+1%
+#140000
+0%
+#145000
+1%
